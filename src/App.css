@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Set default font (if not configured in tailwind.config.js) */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1D3557; /* Base text color */
+  background-color: white; /* Default background */
+  line-height: 1.6;
+}
+
+/* Optional: Custom scrollbar (modern browsers only) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(29, 69, 216, 0.5); /* Tailwind blue-ish */
+  border-radius: 10px;
+}
