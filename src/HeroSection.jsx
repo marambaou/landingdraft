@@ -1,10 +1,12 @@
 import React from 'react';
+
 import heroImage from './assets/femaleDoctor-removebg.png';
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row items-center justify-between px-8 md:px-16 pt-32 pb-16 bg-gradient-to-br from-blue-100 via-purple-100 to-white">
+    <section className="min-h-screen  flex flex-col md:flex-row items-center justify-between  w-full h-100vh px-8 md:px-16 pt-32 pb-16 bg-gradient-to-br from-blue-100 via-purple-100 to-white">
       {/* Left Text Section */}
+   
       <div className="w-full md:w-1/2 text-center md:text-left mb-12 md:mb-0">
         <h1 className="text-4xl md:text-5xl font-bold text-[#1D3557] leading-tight">
           Making healthcare easier, smarter, and accessible.

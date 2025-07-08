@@ -3,7 +3,7 @@ import doctorImage from './assets/aboutpicture.jpg';
 
 const AboutUsSection = () => {
   return (
-    <section className="py-20 px-6 md:px-16 bg-white">
+    <section className="py-20 px-6 md:px-14 bg-white">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Left: Image */}
         <div>

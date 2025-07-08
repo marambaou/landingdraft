@@ -23,7 +23,7 @@ const specialties = [
 
 const SpecialtySection = () => {
   return (
-    <section className="py-20 px-6 md:px-16 bg-[#F8FAFC]">
+    <section className="py-20 px-6 md:px-14 bg-[#F8FAFC]">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-[#1D3557] mb-2">Our Specialty</h2>
         <p className="text-gray-500 text-sm">We provide the world-class services with the best medical team</p>
